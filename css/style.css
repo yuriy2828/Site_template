@@ -1,0 +1,25 @@
+/*Ширина сайта 1280px*/
+body {
+    background: url("/img/background_header.png") no-repeat;
+    background-size: 100% 700px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a {
+    color: lightgrey;
+}
+
+.Title {
+    color: orange;
+    text-align: center;
+}
+
+.menu{
+    list-style: none;
+    padding: 10px 15px;
+    margin: 0;
+}
