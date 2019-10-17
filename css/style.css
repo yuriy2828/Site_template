@@ -1,8 +1,9 @@
 /*Ширина сайта 1280px*/
 body {
     background: url("/img/background_header.png") no-repeat;
-    background-size: 100% 700px;
-    font-family: sans-serif;
+    background-position: 0 -90px;
+    background-size: 100% 110%;
+    font-family: "Arial" sans-serif;
 }
 
 a {
@@ -10,6 +11,7 @@ a {
 }
 
 .menu a {
+    border: 1px;
     color: lightgrey;
 }
 
@@ -20,6 +22,23 @@ a {
 
 .menu{
     list-style: none;
-    padding: 10px 15px;
-    margin: 0;
+    padding: 0px;
+    margin: -1px;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu1 {
+    position: relative;
+    bottom: 50px;
+    left: 500px;
+}
+
+.menu2 {
+    position: relative;
+    left: 1150px;
+    bottom: 80px;
 }
