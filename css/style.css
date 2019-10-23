@@ -32,6 +32,8 @@ a {
 }
 
 .menu1 {
+    border: 1px;
+    width: 250px;
     position: relative;
     bottom: 50px;
     left: 500px;
