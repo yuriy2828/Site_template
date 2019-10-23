@@ -1,9 +1,14 @@
-/*Ширина сайта 1280px*/
-body {
-    background: url("/img/background_header.png") no-repeat;
-    background-position: 0 -90px;
-    background-size: 100% 110%;
-    font-family: "Arial" sans-serif;
+/*Ширина сайта 940px*/
+.container {
+  margin: 0 auto;
+  width: 940px;
+  overflow: hidden;
+}
+
+header {
+    margin: 0;
+    height: 920px;
+    background: url("../img/background_header.png") no-repeat;
 }
 
 a {
@@ -15,11 +20,6 @@ a {
     color: lightgrey;
 }
 
-.Title {
-    color: orange;
-    text-align: center;
-}
-
 .menu{
     list-style: none;
     padding: 0px;
@@ -27,20 +27,6 @@ a {
 }
 
 .menu li{
-    display: inline;
+    display: inline-block;
     margin-right: 50px;
-}
-
-.menu1 {
-    border: 1px;
-    width: 250px;
-    position: relative;
-    bottom: 50px;
-    left: 500px;
-}
-
-.menu2 {
-    position: relative;
-    left: 1150px;
-    bottom: 80px;
 }
