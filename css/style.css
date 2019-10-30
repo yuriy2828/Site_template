@@ -40,13 +40,28 @@ a {
     margin-right: 50px;
 }
 
-.description {
+.Description {
     margin: 0;
     height: 755px;
 }
 
-.register {
+.Register {
     margin: 0;
-    height: 780px;
+    height: 900px;
     background: url("../img/background-register.png") no-repeat;
+    background-size: 100%;
+}
+
+.text-register {
+    text-transform: uppercase;
+    padding-top: 500px;
+    color: lightgray;
+    font-family: "Ostrich sans";
+    font-weight: 400;
+    text-align: center;
+}
+
+.button_register {
+    display: flex;
+    justify-content: center;
 }
